@@ -1,0 +1,51 @@
+.overlay {
+    display: none;
+    position: fixed;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(#000, 0.7);
+    cursor: default;
+
+    .header__open-modal>.button__radio:checked~& {
+        display: block;
+    }
+}
+
+.modal-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    overflow-y: scroll;
+}
+
+.modal {
+    position relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    transition: 0.3s;
+
+    @media all and (max-width: 768px) {
+        width: 280px;
+        height: 280px;
+    }
+
+    &__close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    &__text {
+        font-size: 53px;
+        font-weight: 400;
+        color: #000;
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"name": "",
+	"description": "webapp template",
+	"version": "0.0.1",
+	"author": "J.D.Ibragimova",
+	"dependencies": {
+		"grunt-autoprefixer": "latest",
+		"grunt-combine-media-queries": "latest",
+		"grunt-contrib-clean": "latest",
+		"grunt-contrib-connect": "latest",
+		"grunt-contrib-copy": "latest",
+		"grunt-contrib-imagemin": "latest",
+		"grunt-contrib-jade": "latest",
+		"grunt-contrib-jshint": "latest",
+		"grunt-contrib-stylus": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-csscomb": "latest",
+		"grunt-newer": "latest",
+		"grunt-prettify": "latest",
+		"jit-grunt": "latest",
+		"load-grunt-config": "latest",
+		"time-grunt": "latest",
+		"js-yaml": "latest"
+	},
+	"devDependencies": {
+		"grunt": "latest"
+	}
+}

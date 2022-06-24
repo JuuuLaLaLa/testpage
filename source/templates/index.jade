@@ -1,0 +1,33 @@
+extends layouts/default
+
+block head
+    - title = 'test';
+
+block content
+    .wrapper
+        header.header
+            .button.header__open-modal
+                input.button__radio(type="radio" name="modal" id="modal_open")
+                label.button__label(for="modal_open") Open pop-up button
+                .overlay
+                    .modal-container
+                        .modal
+                            .button.modal__close
+                                input.button__radio(type="radio" name="modal" id="modal_close")
+                                label.button__label(for="modal_close") X
+                            .modal__text Pop-up
+        .content
+            section.section.section_green
+                ol.list.list_first
+                    li.list__item
+                    li.list__item
+                    li.list__item
+                    li.list__item
+                    li.list__item
+            section.section.section_blue
+                ol.list.list_second
+                    li.list__item
+                    li.list__item
+                    li.list__item
+                    li.list__item
+        footer.footer

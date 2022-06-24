@@ -1,0 +1,13 @@
+//- scripts
+
+mixin script(scripts)
+	each src in scripts
+		- src = 'js/' + src + '.js';
+		script(type='text/javascript' src=src)
+
+//- styles
+
+mixin link(styles)
+	each src in styles
+		- src = 'css/' + src + '.css'
+		link(rel='stylesheet' href=src type="text/css" media="screen")

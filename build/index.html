@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='ru'>
+	<head>
+		<title>test</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="target-densityDpi=device-dpi, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="button header__open-modal">
+					<input type="radio" name="modal" id="modal_open" class="button__radio">
+					<label for="modal_open" class="button__label">Open pop-up button</label>
+					<div class="overlay">
+						<div class="modal-container">
+							<div class="modal">
+								<div class="button modal__close">
+									<input type="radio" name="modal" id="modal_close" class="button__radio">
+									<label for="modal_close" class="button__label">X</label>
+								</div>
+								<div class="modal__text">Pop-up</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="content">
+				<section class="section section_green">
+					<ol class="list list_first">
+						<li class="list__item"></li>
+						<li class="list__item"></li>
+						<li class="list__item"></li>
+						<li class="list__item"></li>
+						<li class="list__item"></li>
+					</ol>
+				</section>
+				<section class="section section_blue">
+					<ol class="list list_second">
+						<li class="list__item"></li>
+						<li class="list__item"></li>
+						<li class="list__item"></li>
+						<li class="list__item"></li>
+					</ol>
+				</section>
+			</div>
+			<footer class="footer"></footer>
+		</div>
+	</body>
+</html>
